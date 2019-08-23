@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>
+        Register
+    </title>
+    <style>
+    table{
+        border: 1px double;
+        width: 50%;
+        background-color: chocolate;
+    }
+    td{
+        border: 1px ridge;
+        /* background-color: antiquewhite */
+    }
+    input{
+        width: 90%;
+        border-radius: 25px 25px;
+        color:blue
+    }
+    input[type="text"]{
+        background-color: black
+    }
+    input[type="button"]{
+    width: 90%;
+    height: 50;
+    color: white;
+    background-color: green;
+    border-radius: 25px 25px;
+}
+tr:last-child{
+    height: 60px;
+}
+tr:nth-child(even){
+    background-color: rgb(245, 104, 169)
+}
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Register</h1>
+    </center>
+    <center>
+        <table>
+            <tr>
+                <th colspan="2">
+                    <center>
+                        <h1>Sign Up</h1>
+                    </center>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h1>First Name</h1>
+                </td>
+                <td><input type="text" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Last Name</h1>
+                </td>
+                <td><input type="text" placeholder="Enter Your Last Name"></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Email</h1>
+                </td>
+                <td>
+                    <input type="email" placeholder="Enter Your Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Gender</h1>
+                </td>
+                <td>
+                    <label for="fmale">Fmale</label>
+                    <input type="radio">
+                    <label for="mail">Mail</label>
+                    <input type="radio">
+                    <label for="other">Other</label>
+                    <input type="radio">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Password</h1>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                  <center>  <input class="button" type="button" value="Sign Me Up"></center>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Inputs</title>
+    <style>
+    /* This area for Styling */
+    table{
+        width: 100%;
+        border:solid; 
+    }
+    td{
+        border:1px solid gray;
+
+    }
+    th{
+        border:solid 1px gray;
+        background-color: chartreuse
+    }
+
+
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
+    tr:nth-child(even){
+        background-color: rgb(104, 104, 197);
+    }
+    tr:nth-child(even):hover{
+        background-color: blue;
+    }
+    tr:nth-child(odd):hover{
+        background-color: rgb(52, 155, 155)
+    }
+    table:hover{
+        transition: 7s;
+        width: 75%;
+    }
+
+    </style>
+</head>
+<body>
+    <center><h1>HTML Inputs</h1></center>
+    <center>
+    <table title="HTML Inputs">
+        <tr>
+            <th>
+                <h1>HTML Input</h1>
+            </th>
+            <th>
+                <h1>Description</h1>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <p>This is normal text Input</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password">
+            </td>
+            <td>
+                <p>This is for Passwords</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">
+            </td>
+            <td>
+                <p>This is Normal Checkbox</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio">
+            </td>
+            <td><p>This is Radio button</p></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Type Your Name" title="Hey.....">
+            </td>
+            <td>
+                <p>Placeholder Properity</p>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Click Me!"></td>
+            <td><p>This is normal button</p></td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="">First Choise</option>
+                    <option value="">Second Choise</option>
+                    <option value="">Third Chois</option>
+                </select>
+            </td>
+            <td><p>This is Select</p></td>
+        </tr>
+        <tr>
+            <td><input type="datetime-local" ></td>
+            <td><p>This input is for Time</p></td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>
